@@ -1,48 +1,26 @@
-# README
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     						       THE GOSSIP PROJECT
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+README
+Bonsoir ! Vous trouverez dans cette application le site web de The Gossip Project qui répertorie tous les gossips émis par nos très chères moussaillons.
 
-Made for Ruby 2.5.1 Rails 5.2.3
+Pour lancer l'application ? Rien de plus simple. Un petit 'bundle instal', un petit 'rails db:update', un 'rails server', et ensuite on ouvre l'adresse suivante dans son navigateur : 'http://localhost:3000/' . Aller, gossipez bien les gens !
 
-    PRESENTATION
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+This README would normally document whatever steps are necessary to get the application up and running.
 
-The Gossip Project ("TGP") gathers the best gossips ever heard in THP.
-This the v1, you'll soon be able to create, edit, comment and like the gossips.
+Things you may want to cover:
 
+Ruby version
 
-	SET-UP
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System dependencies
 
-$ git clone https://github.com/philippegatti/28oct
+Configuration
 
-Go to the folder and run $ bundle install
+Database creation
 
-Active the migrations and run the seed :
+Database initialization
 
-$ rails db:create
-$ rails db:migrate
-$ rails db:seed
+How to run the test suite
 
-	RUNNING
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Services (job queues, cache servers, search engines, etc.)
 
-Launch your server :
+Deployment instructions
 
-$ rails server
-
-(you can also use $ shotgun -p 3000 - but it appears to be slower)
-
-
-Open a browser and go to
-
-    http://localhost:3000/welcome
-    or http://localhost:3000/welcome/your_name for a personalized landing page
-
-Navigate and envoy the Gossips
-
-If you want to contact me, my details are in the contact page.
-
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+...

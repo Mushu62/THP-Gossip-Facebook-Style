@@ -25,22 +25,4 @@ class GossipController < ApplicationController
     @gossips=Gossip.all
   end
 
-  def edit
-    @gossip=Gossip.find(params[:id])
-  end
-
-  def update
-    @gossip = Gossip.find(params[:id])
-    if @gossip.update(title: params[:gossip_title], content: params[:gossip_content])
-      redirect_to @gossip
-    else
-      render :edit
-    end
-  end
-  def destroy
-    @gossip = Gossip.find(params[:id])
-    @gossip.destroy
-    @gossips=Gossip.all
-    render 'gossip/index'
-  end
 end
